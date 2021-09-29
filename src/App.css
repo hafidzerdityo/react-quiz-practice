@@ -22,3 +22,12 @@
 .ans-ctrl {
   border-radius: 7px;
 }
+
+.width-control {
+  width: 30%;
+}
+@media (max-width: 768px) {
+  .width-control {
+    width: 75%;
+  }
+}

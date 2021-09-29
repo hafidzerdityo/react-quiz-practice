@@ -5,7 +5,7 @@ const StartScreen = ({ handleStart }) => {
     <>
       <div>
         <div className="row align-items-center justify-content-center give-height">
-          <div className="my-card row justify-content-between align-items-center w-50">
+          <div className="my-card row justify-content-between align-items-center width-control">
             <h4 className="text-center">Mulai Tes</h4>
             <p className="lead text-center">Good Luck!</p>
 

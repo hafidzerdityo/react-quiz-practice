@@ -4,10 +4,7 @@ const Answer = ({ answers, handleRestart }) => {
   return (
     <div>
       <div className="row align-items-center justify-content-center give-height">
-        <div
-          className="my-card row justify-content-between align-items-center"
-          style={{ width: "40vw" }}
-        >
+        <div className="my-card row justify-content-between align-items-center width-control">
           {answers.map((ans) => {
             if (!ans.isCorrect) {
               return (

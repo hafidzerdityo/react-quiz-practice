@@ -5,10 +5,7 @@ const Question = ({ questions, page, handleAnsClick }) => {
     <>
       <div className="bg-light text-dark">
         <div className="row align-items-center justify-content-center give-height">
-          <div
-            className="my-card row justify-content-between align-items-center"
-            style={{ width: "40vw" }}
-          >
+          <div className="my-card row justify-content-between align-items-center width-control">
             <div className="col-lg">
               <h5>
                 Pertanyaan {page + 1}/{questions.length}

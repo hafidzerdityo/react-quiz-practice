@@ -11,7 +11,7 @@ function App() {
   const questions = [
     {
       questionText:
-        "Short Circuit Evaluation dari code berikut yang menghasilkan nilai true adalah?",
+        "Short Circuit Evaluation dari code Javascript berikut yang menghasilkan nilai true adalah?",
       answerOptions: [
         { answerText: "false || undefined", isCorrect: false },
         { answerText: "false && [ ]", isCorrect: false },
