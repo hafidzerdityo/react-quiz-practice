@@ -16,7 +16,7 @@ function App() {
         { answerText: "false || undefined", isCorrect: false },
         { answerText: "false && [ ]", isCorrect: false },
         { answerText: "(3 > 2) || false  ", isCorrect: true },
-        { answerText: "false || true", isCorrect: false },
+        { answerText: "false || true", isCorrect: true },
       ],
     },
     {
@@ -83,8 +83,6 @@ function App() {
   const handleAnswer = () => {
     setToggleAnswers(true);
   };
-
-  console.log(answers);
 
   return (
     <div>
